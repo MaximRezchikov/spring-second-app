@@ -1,5 +1,6 @@
-package com.springapp.quoters;
+package com.springapp.quoters.proxy;
 
+import com.springapp.quoters.annotations.PostProxy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;

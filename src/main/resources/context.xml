@@ -7,11 +7,11 @@
 <!--    <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>-->
     <context:annotation-config/>
 
-    <bean class="com.springapp.quoters.DeprecationHandlerBeanFactoryPostProcessor"/>
-    <bean class="com.springapp.quoters.PostProxyInvokerContextListener"/>
-    <bean class="com.springapp.quoters.ProfilingHandlerBeanPostProcessor"/>
-    <bean class="com.springapp.quoters.InjectRandomIntAnnotationBeanPostProcessor"/>
-    <bean class="com.springapp.quoters.TerminatorQuoter" id="terminatorQuoter">
+    <bean class="com.springapp.quoters.postproccessors.DeprecationHandlerBeanFactoryPostProcessor"/>
+    <bean class="com.springapp.quoters.proxy.PostProxyInvokerContextListener"/>
+    <bean class="com.springapp.quoters.profiling.ProfilingHandlerBeanPostProcessor"/>
+    <bean class="com.springapp.quoters.postproccessors.InjectRandomIntAnnotationBeanPostProcessor"/>
+    <bean class="com.springapp.quoters.quoter.TerminatorQuoter" id="terminatorQuoter">
         <property name="message" value="I'll be back"/>
     </bean>
 </beans>

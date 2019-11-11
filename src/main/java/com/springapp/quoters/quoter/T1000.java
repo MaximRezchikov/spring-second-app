@@ -1,4 +1,4 @@
-package com.springapp.quoters;
+package com.springapp.quoters.quoter;
 
 public class T1000  extends TerminatorQuoter implements Quoter {
 

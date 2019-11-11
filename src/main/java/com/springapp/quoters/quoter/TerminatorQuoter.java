@@ -1,4 +1,9 @@
-package com.springapp.quoters;
+package com.springapp.quoters.quoter;
+
+import com.springapp.quoters.annotations.DeprecatedClass;
+import com.springapp.quoters.annotations.InjectRandomInt;
+import com.springapp.quoters.annotations.PostProxy;
+import com.springapp.quoters.annotations.Profiling;
 
 import javax.annotation.PostConstruct;
 

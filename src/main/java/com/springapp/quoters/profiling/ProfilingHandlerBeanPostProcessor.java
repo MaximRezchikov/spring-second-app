@@ -1,5 +1,7 @@
-package com.springapp.quoters;
+package com.springapp.quoters.profiling;
 
+import com.springapp.quoters.annotations.Profiling;
+import com.springapp.quoters.profiling.ProfilingController;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 

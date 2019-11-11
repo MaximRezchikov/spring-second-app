@@ -1,5 +1,6 @@
-package com.springapp.quoters;
+package com.springapp.quoters.postproccessors;
 
+import com.springapp.quoters.annotations.InjectRandomInt;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.util.ReflectionUtils;

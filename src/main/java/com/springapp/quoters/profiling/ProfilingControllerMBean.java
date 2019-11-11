@@ -1,4 +1,4 @@
-package com.springapp.quoters;
+package com.springapp.quoters.profiling;
 
 public interface ProfilingControllerMBean {
 

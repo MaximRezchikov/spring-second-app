@@ -1,5 +1,6 @@
 package com.springapp.quoters;
 
+import com.springapp.quoters.quoter.Quoter;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Main {
