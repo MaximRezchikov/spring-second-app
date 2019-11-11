@@ -28,6 +28,8 @@ public class InjectRandomIntAnnotationBeanPostProcessor implements BeanPostProce
         return bean;
     }
 
+    //init method call here
+
     @Override
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
         return bean;
